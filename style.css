@@ -1,0 +1,29 @@
+body {
+  background-color: green;
+  padding-left: 25%;
+  padding-top: 1%;
+}
+
+h1 {
+  color: rgb(247, 223, 11);
+}
+
+h2 {
+  font-style: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(230, 16, 16);
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.center {
+  margin: auto;
+  width: 40%;
+  border: 6px solid rgb(78, 90, 78);
+  padding: 15px;
+}
