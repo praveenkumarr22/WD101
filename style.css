@@ -1,11 +1,11 @@
 body {
-  background-color: green;
+  background-color: rgba(103, 108, 167, 0.444);
   padding-left: 25%;
   padding-top: 1%;
 }
 
 h1 {
-  color: rgb(247, 223, 11);
+  color: rgb(96, 32, 14);
 }
 
 h2 {
@@ -23,7 +23,8 @@ td {
 
 .center {
   margin: auto;
-  width: 40%;
+  width: 60%;
   border: 6px solid rgb(78, 90, 78);
-  padding: 15px;
+  padding: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

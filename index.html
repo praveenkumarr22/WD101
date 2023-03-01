@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <title>Registration Application Form</title>
     <link rel="stylesheet" href="style.css" />
+    <img src="image2233.jpg" alt="imaGE" style="width: 150px; float: left; padding-top: 20%;">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
   </head>
   <body>
-    <img src="image.avif" alt="imaGE" style="width: 150px;">
-    <script src="index.js"></script>
-    <h1>Registration Application Form
-    </h1>
+  
+    <div class="center">
+    <h1>REGISTRATION APPLICATION FORM</h1>
+    </div>
+      
+
     <div class="center">
     <form id="registration-application-form" style="border: 5%">
       <div>
@@ -21,11 +25,13 @@
           id="name"
           required
         />
+        <span aria-hidden="true" class="required" style="color: red;">*</span>
       </div>
       <br />
       <div>
         <label for="email">Email:</label>
         <input type="email" placeholder="Enter your e-mail id" id="email" required />
+        <span aria-hidden="true" class="required" style="color: red;">*</span>
       </div>
       <br />
       <div>
@@ -36,11 +42,13 @@
           id="password"
           required
         />
+        <span aria-hidden="true" class="required" style="color: red;">*</span>
       </div>
       <br />
       <div>
         <label for="dob">Date of Birth:</label>
         <input type="date" id="dob" required />
+        <span aria-hidden="true" class="required" style="color: red;">*</span>
       </div>
       <br />
       <div>
@@ -53,7 +61,7 @@
       <button type="submit">Submit</button>
     </form>
 
-    <h2>Entries of the Persons</h2>
+    <h2>Entry List of the Peoples</h2>
 
     <table id="entries-table">
       <thead>
@@ -62,11 +70,12 @@
           <th>Email</th>
           <th>Password</th>
           <th>Dob</th>
-          <th>Accepted terms and conditions</th>
+          <th>Accepted terms?</th>
         </tr>
       </thead>
-      <tbody id="entries-table-body"></tbody>
+      <tbody id="entries-table-center"></tbody>
     </table>
+    <script src="index.js"></script>
   </div>
     
   </body>
